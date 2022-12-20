@@ -1,0 +1,1 @@
+(self.webpackChunksasha_danilov=self.webpackChunksasha_danilov||[]).push([[16],{16:()=>{let e=new IntersectionObserver((function(e){e.forEach((e=>{e.isIntersecting&&e.target.classList.add("scroll--show")}))}),{threshold:[.5]}),s=document.querySelectorAll(".el-anim");for(let l of s)e.observe(l)}}]);
