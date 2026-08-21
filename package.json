@@ -1,0 +1,16 @@
+{
+  "name": "daniloff-site",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Сайт Саши Данилова: статические страницы и визуальные тесты",
+  "type": "module",
+  "scripts": {
+    "test:visual": "scripts/visual-tests.sh",
+    "test:visual:update": "scripts/visual-tests.sh --update-snapshots",
+    "test:report": "scripts/visual-tests.sh --report-only",
+    "serve": "node tests/static-server.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.1"
+  }
+}
